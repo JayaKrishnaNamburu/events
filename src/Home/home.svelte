@@ -29,9 +29,28 @@
 				<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
 			</div>
 			<div class="card-header small_heading">
+				Jaya Krishna Namburu @React-Bangalore
+			</div>
+		</div>
+
+		<div class="card clickable">
+				<div class="card-image">
+				<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
+			</div>
+			<div class="card-header small_heading">
+				Prasant Kumar @Tirupati
+			</div>
+		</div>
+
+		<div class="card clickable">
+			<div class="card-image">
+				<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
+			</div>
+			<div class="card-header small_heading">
 				Prasant Kumar @JSRealm
 			</div>
 		</div>
+
 	</section>
 
 	<div class="break" />
@@ -44,7 +63,7 @@
 					<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
 				</div>
 				<div class="card-header small_heading">
-					Open Source Software (Hacktoberfest)
+					Hacktoberfest
 				</div>
 			</div>
 		</Link>
@@ -55,7 +74,7 @@
 					<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
 				</div>
 				<div class="card-header small_heading">
-					Prasanth Kumar @Chennai JS
+					Desing Thinking @Chennai JS
 				</div>
 			</div>
 		</Link>
@@ -66,7 +85,7 @@
 					<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
 				</div>
 				<div class="card-header small_heading">
-					Talks @Chennai JS
+					Tech Talks @Chennai JS
 				</div>
 			</div>
 		</Link>
@@ -76,7 +95,7 @@
 				<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
 			</div>
 			<div class="card-header small_heading">
-				Tech Talks (Salem)
+				Tech Talks @Salem
 			</div>
 		</div>
 	</section>
