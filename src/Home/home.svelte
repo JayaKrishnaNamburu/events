@@ -4,7 +4,7 @@
 
 <main>
 	<header class="welcome_heading">
-		FIDISYS - Events
+		FIDISYS @Meetups
 		<img 
 			class="landing-image" 
 			src="./images/landing.svg" 
@@ -49,13 +49,24 @@
 			</div>
 		</Link>
 
+		<Link to="prasanth_chennaijs">
+			<div class="card clickable">
+				<div class="card-image">
+					<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
+				</div>
+				<div class="card-header small_heading">
+					Prasanth Kumar @Chennai JS
+				</div>
+			</div>
+		</Link>
+
 		<Link to="chennaijs">
 			<div class="card clickable">
 				<div class="card-image">
 					<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
 				</div>
 				<div class="card-header small_heading">
-					Chennai JS
+					Talks @Chennai JS
 				</div>
 			</div>
 		</Link>
@@ -68,12 +79,36 @@
 				Tech Talks (Salem)
 			</div>
 		</div>
-		
-		
+	</section>
+
+	<div class="break" />
+
+	<section class="credits">
+		<h5 class="credits_heading">Our Friends</h5>
+		<heading>People who joined us in the mission of bringing the community together.</heading>
+		<section class="credits_gallery">
+			<img src="./images/tekclan-logo.png" class="credits_logo"/>
+		</section>
 	</section>
 </main>
 
 <style>
+	.credits {
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.credits_logo {
+		width: 150px;
+		height: auto;
+	}
+
+	.credits_heading {
+		font-family: 'Roboto Slab', serif;
+		font-size: 1.2rem;
+		line-height: 1.2;
+	}
+
 	.landing-image {
 		display: block;
 		max-width: 500px;
@@ -88,6 +123,13 @@
 		display: grid;
 		grid-gap: 10px;
 		grid-template-columns: repeat(auto-fill, 300px);
+	}
+
+	.credits_gallery {
+		/* display: grid;
+		grid-gap: 10px;
+		grid-template-columns: repeat(auto-fill, 150px); */
+		text-align: center;
 	}
 
 	.welcome_description {
