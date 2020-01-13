@@ -4,7 +4,9 @@
 
 <main>
 	<header class="welcome_heading">
-		FIDISYS @Meetups
+	<div class="welcome_logo">
+		<img src="./images/logo.png" class="credits_logo" alt="Fidisys logo" /> <span>@Meetups</span>
+	</div>
 		<img 
 			class="landing-image" 
 			src="./images/landing.svg" 
@@ -22,32 +24,37 @@
 		It helps as a single stop shop for all our notes and links for further reference.
 	</p>
 
-	<heading class="events_heading">Upcoming Events / Talks</heading>
+	<heading class="events_heading">Upcoming Talks</heading>
+	<p>All the list of all upcoming talks where our team is going to participate.</p>
 	<section class="events-section">
 		<div class="card clickable">
-			<div class="card-image">
-				<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
-			</div>
 			<div class="card-header small_heading">
-				Jaya Krishna Namburu @React-Bangalore
+				<custom-date date="1579967846"></custom-date>
+				<p>Rethinking Frontend Architecutre <strong>@React-Bangalore</strong></p>
+				<div class="chip break">
+					<img src="./images/jk.png" class="avatar avatar-sm"/>
+					Jaya Krishna Namburu
+				</div>
 			</div>
 		</div>
 
 		<div class="card clickable">
-				<div class="card-image">
-				<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
-			</div>
 			<div class="card-header small_heading">
-				Prasant Kumar @Tirupati
+				<custom-date date="1579967846"></custom-date>
+				<p><strong>@Tirupati</strong></p>
+				<div class="chip break">
+					Prasanth Kumar
+				</div>
 			</div>
 		</div>
 
 		<div class="card clickable">
-			<div class="card-image">
-				<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
-			</div>
 			<div class="card-header small_heading">
-				Prasant Kumar @JSRealm
+				<custom-date date="1580572646"></custom-date>
+				<p><strong>@JSRealm</strong></p>
+				<div class="chip break">
+					Prasanth Kumar
+				</div>
 			</div>
 		</div>
 
@@ -74,7 +81,7 @@
 					<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
 				</div>
 				<div class="card-header small_heading">
-					Desing Thinking @Chennai JS
+					Desing Thinking <strong>@Chennai JS</strong>
 				</div>
 			</div>
 		</Link>
@@ -85,7 +92,7 @@
 					<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
 				</div>
 				<div class="card-header small_heading">
-					Tech Talks @Chennai JS
+					Tech Talks <strong>@Chennai JS</strong>
 				</div>
 			</div>
 		</Link>
@@ -95,7 +102,7 @@
 				<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
 			</div>
 			<div class="card-header small_heading">
-				Tech Talks @Salem
+				Tech Talks <strong>@Salem</strong>
 			</div>
 		</div>
 	</section>
@@ -106,12 +113,34 @@
 		<h5 class="credits_heading">Our Friends</h5>
 		<heading>People who joined us in the mission of bringing the community together.</heading>
 		<section class="credits_gallery">
-			<img src="./images/tekclan-logo.png" class="credits_logo"/>
+			<img src="./images/tekclan-logo.png" alt="Tekclan Logo" class="credits_logo"/>
+			<!-- <img src="./images/gdg.png" alt="Google Developers Group Logo" class="credits_logo" /> -->
 		</section>
 	</section>
 </main>
+<footer class="home_footer">
+	Copyright © 2019 Fidisys Technologies. 
+</footer>
 
 <style>
+	main {
+		padding: 1em;	
+	}
+
+	.home_footer {
+		padding: 12px;
+		font-size: 0.6rem;
+		text-align: center;
+		background-color: #F5F7F8;
+		border: 1px solid #e6e6e6;
+	}
+
+	.welcome_logo {
+		display: flex;
+		justify-content: center;
+		margin-top: 15px;
+	}
+
 	.credits {
 		margin-top: 20px;
 		text-align: center;
@@ -130,8 +159,9 @@
 
 	.landing-image {
 		display: block;
-		max-width: 500px;
-		margin: 15px auto;
+		margin: 20px auto;
+		height: 200px;
+		width: 100%;
 	}
 
 	.clickable {
@@ -148,6 +178,7 @@
 		/* display: grid;
 		grid-gap: 10px;
 		grid-template-columns: repeat(auto-fill, 150px); */
+		margin-top: 20px;
 		text-align: center;
 	}
 
@@ -162,7 +193,7 @@
 	.welcome_heading {
 		text-align: center;
 		font-family: 'Roboto Slab', serif;
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 
 	.small_heading {
@@ -185,6 +216,13 @@
 	@media (min-width: 640px) {
 		main {
 			max-width: none;
+		}
+
+		.landing-image {
+			display: block;
+			margin: 15px auto;
+			height: 400px;
+			width: 100%;
 		}
 	}
 </style>

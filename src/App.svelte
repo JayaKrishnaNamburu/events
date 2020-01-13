@@ -19,8 +19,7 @@
 
 <style>
 	main {
-		padding: 1em;
-		max-width: 240px;
+		padding: 0;
 		margin: 0 auto;
 		border-top: 5px solid #FF5D5D;
 	}
