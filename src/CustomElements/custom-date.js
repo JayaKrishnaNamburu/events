@@ -30,6 +30,8 @@ class CustomDate extends HTMLElement {
       elm.innerHTML = `${stamp.getDate()} ${getMonth(
         stamp.getMonth()
       )} ${stamp.getFullYear()}`;
+      elm.style.color = "#716f6f";
+      elm.style.fontSize = "0.6rem";
     }
     shadow.appendChild(elm);
   }

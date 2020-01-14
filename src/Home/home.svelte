@@ -29,8 +29,8 @@
 	<section class="events-section">
 		<div class="card clickable">
 			<div class="card-header small_heading">
+				<p>Rethinking Frontend Architecutre <strong> @React-Bangalore</strong></p>
 				<custom-date date="1579967846"></custom-date>
-				<p>Rethinking Frontend Architecutre <strong>@React-Bangalore</strong></p>
 				<div class="chip break">
 					<img src="./images/jk.png" class="avatar avatar-sm"/>
 					Jaya Krishna Namburu
@@ -40,9 +40,10 @@
 
 		<div class="card clickable">
 			<div class="card-header small_heading">
+				<p>Why should we develop Mobile Applications?<strong> @Tirupati</strong></p>
 				<custom-date date="1579967846"></custom-date>
-				<p><strong>@Tirupati</strong></p>
 				<div class="chip break">
+					<figure data-initial="PK" class="avatar avatar-sm" />
 					Prasanth Kumar
 				</div>
 			</div>
@@ -50,9 +51,10 @@
 
 		<div class="card clickable">
 			<div class="card-header small_heading">
+				<p>Frontend as a Service (FaaS) <strong> @JSRealmChennai</strong></p>
 				<custom-date date="1580572646"></custom-date>
-				<p><strong>@JSRealm</strong></p>
 				<div class="chip break">
+					<figure data-initial="PK" class="avatar avatar-sm" />
 					Prasanth Kumar
 				</div>
 			</div>
@@ -61,6 +63,11 @@
 	</section>
 
 	<div class="break" />
+
+	<!-- <section>
+		<heading class="events_heading">Upcoming Events</heading>
+		<div class="break" />
+	</section> -->
 
 	<heading class="events_heading">Past Events / Talks</heading>
 	<section class="events-section">
