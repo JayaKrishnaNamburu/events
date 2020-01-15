@@ -1,5 +1,6 @@
 <script>
 	import { Link } from 'svelte-routing'
+	import NameChip from '../Components/name_chip.svelte'
 </script>
 
 <main>
@@ -31,10 +32,7 @@
 			<div class="card-header small_heading">
 				<p>Rethinking Frontend Architecutre <strong> @React-Bangalore</strong></p>
 				<custom-date date="1579967846"></custom-date>
-				<div class="chip break">
-					<img src="./images/jk.png" class="avatar avatar-sm"/>
-					Jaya Krishna Namburu
-				</div>
+					<NameChip name="Jaya Krishna Namburu" initials="JK" image="jk" />
 			</div>
 		</div>
 
@@ -42,10 +40,7 @@
 			<div class="card-header small_heading">
 				<p>Why should we develop Mobile Applications?<strong> @Tirupati</strong></p>
 				<custom-date date="1579967846"></custom-date>
-				<div class="chip break">
-					<figure data-initial="PK" class="avatar avatar-sm" />
-					Prasanth Kumar
-				</div>
+				<NameChip name="Prasanth Kumar" initials="PK" />
 			</div>
 		</div>
 
@@ -53,10 +48,7 @@
 			<div class="card-header small_heading">
 				<p>Frontend as a Service (FaaS) <strong> @JSRealmChennai</strong></p>
 				<custom-date date="1580572646"></custom-date>
-				<div class="chip break">
-					<figure data-initial="PK" class="avatar avatar-sm" />
-					Prasanth Kumar
-				</div>
+				<NameChip name="Prasanth Kumar" initials="PK" />
 			</div>
 		</div>
 
@@ -74,7 +66,11 @@
 		<Link to="oss">
 			<div class="card clickable">
 				<div class="card-image">
-					<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
+					<img
+						src="./images/hacktober_fest.jpg"
+						class="card-image-wrapper"
+						alt="Hacktoberfest Event of Fidisys"
+					/>
 				</div>
 				<div class="card-header small_heading">
 					Hacktoberfest
@@ -96,20 +92,20 @@
 		<Link to="chennaijs">
 			<div class="card clickable">
 				<div class="card-image">
-					<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
+					<img src="./images/chennai_js.jpg" class="card-image-wrapper"/>
 				</div>
 				<div class="card-header small_heading">
-					Tech Talks <strong>@Chennai JS</strong>
+					Tech-Talks <strong>@Chennai JS</strong>
 				</div>
 			</div>
 		</Link>
 
 		<div class="card clickable">
 			<div class="card-image">
-				<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
+				<img src="./images/tech_talk_salem.jpg" class="card-image-wrapper"/>
 			</div>
 			<div class="card-header small_heading">
-				Tech Talks <strong>@Salem</strong>
+				Tech-Talks <strong>@Salem</strong>
 			</div>
 		</div>
 	</section>
@@ -130,6 +126,12 @@
 </footer>
 
 <style>
+	.card-image-wrapper {
+		width: 300px;
+		height: 250px;
+		object-fit: cover;
+	}
+
 	main {
 		padding: 1em;	
 	}
