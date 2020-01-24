@@ -32,7 +32,8 @@
 			<div class="card-header small_heading">
 				<p>Rethinking Frontend Architecutre <strong> @React-Bangalore</strong></p>
 				<custom-date date="1579967846"></custom-date>
-					<NameChip name="Jaya Krishna Namburu" initials="JK" image="jk" />
+				<img src="./images/react_bangalore_jk.jpeg" alt="React Bangalore" class="banner_fit small" />
+				<NameChip name="Jaya Krishna Namburu" initials="JK" image="jk" />
 			</div>
 		</div>
 
@@ -40,6 +41,7 @@
 			<div class="card-header small_heading">
 				<p>Why should we develop Mobile Applications?<strong> @Tirupati</strong></p>
 				<custom-date date="1579967846"></custom-date>
+				<img src="./images/tirupathi_prasanth.png" alt="Prasanth @Tirupathi" class="small_banner" />
 				<NameChip name="Prasanth Kumar" initials="PK" />
 			</div>
 		</div>
@@ -48,6 +50,7 @@
 			<div class="card-header small_heading">
 				<p>Frontend as a Service (FaaS) <strong> @JSRealmChennai</strong></p>
 				<custom-date date="1580572646"></custom-date>
+				<img src="./images/js_realm_prasanth.jpeg" alt="JSRealm Chennai" class="banner_fit" />
 				<NameChip name="Prasanth Kumar" initials="PK" />
 			</div>
 		</div>
@@ -126,6 +129,18 @@
 </footer>
 
 <style>
+	.small_banner {
+		margin-top: 15px;
+		height: 400px;
+		width: 100%;
+		object-fit: contain
+	}
+	.banner_fit {
+		margin-top: 15px;
+		height: 400px;
+		width: 100%;
+		object-fit: cover;
+	}
 	.card-image-wrapper {
 		width: 300px;
 		height: 250px;
