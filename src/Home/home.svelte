@@ -28,25 +28,7 @@
 	<heading class="events_heading">Upcoming Talks</heading>
 	<p>All the list of all upcoming talks where our team is going to participate.</p>
 	<section class="events-section">
-		<div class="card clickable">
-			<div class="card-header small_heading">
-				<p>Rethinking Frontend Architecutre <strong> @React-Bangalore</strong></p>
-				<custom-date date="1579967846"></custom-date>
-				<img src="./images/react_bangalore_jk.jpeg" alt="React Bangalore" class="banner_fit small" />
-				<NameChip name="Jaya Krishna Namburu" initials="JK" image="jk" />
-			</div>
-		</div>
-
-		<div class="card clickable">
-			<div class="card-header small_heading">
-				<p>Why should we develop Mobile Applications?<strong> @Tirupati</strong></p>
-				<custom-date date="1579967846"></custom-date>
-				<img src="./images/tirupathi_prasanth.png" alt="Prasanth @Tirupathi" class="small_banner" />
-				<NameChip name="Prasanth Kumar" initials="PK" />
-			</div>
-		</div>
-
-		<div class="card clickable">
+		<div class="card">
 			<div class="card-header small_heading">
 				<p>Frontend as a Service (FaaS) <strong> @JSRealmChennai</strong></p>
 				<custom-date date="1580572646"></custom-date>
@@ -66,6 +48,76 @@
 
 	<heading class="events_heading">Past Events / Talks</heading>
 	<section class="events-section">
+		<Link to="/">
+			<div class="card clickable">
+				<div class="card-image">
+					<img
+						src="./images/react_bangalore_jk.jpg_large"
+						class="card-image-wrapper"
+						alt="React Bangalore"
+					/>
+				</div>
+				<div class="card-header small_heading">
+					Rethinking Frontend - React Bangalore
+					<custom-date date="1579967846"></custom-date>
+				</div>
+			</div>
+		</Link>
+
+		<Link to="/">
+			<div class="card clickable">
+				<div class="card-image">
+					<img
+						src="./images/svec_tirupathi_prasanth.jpeg"
+						class="card-image-wrapper"
+						alt="SVEC Tirupathi"
+					/>
+				</div>
+				<div class="card-header small_heading">
+					Uncovering UI Choreography
+					<custom-date date="1579967846"></custom-date>
+				</div>
+			</div>
+		</Link>
+
+		<div class="card clickable">
+			<div class="card-image">
+				<img src="./images/tech_talks_salem.jpeg" class="card-image-wrapper"/>
+			</div>
+			<div class="card-header small_heading">
+				Tech-Talks <strong>@Salem</strong>
+				<custom-date date="1578127265"></custom-date>
+			</div>
+		</div>
+
+		<Link to="chennaijs">
+			<div class="card clickable">
+				<div class="card-image">
+					<img src="./images/chennai_js.jpg" class="card-image-wrapper"/>
+				</div>
+				<div class="card-header small_heading">
+					Tech-Talks <strong>@Chennai JS</strong>
+					<custom-date date="1575708065"></custom-date>
+				</div>
+			</div>
+		</Link>
+
+		<Link to="prasanth_chennaijs">
+			<div class="card clickable">
+				<div class="card-image">
+					<img 
+						src="./images/atomic_design_chennaijs.jpeg" 
+						class="card-image-wrapper" 
+						alt="Atomic Design meetup in Chennai JS"
+					/>
+				</div>
+				<div class="card-header small_heading">
+					Atomic Design <strong>@Chennai JS</strong>
+					<custom-date date="1572684065"></custom-date>
+				</div>
+			</div>
+		</Link>
+
 		<Link to="oss">
 			<div class="card clickable">
 				<div class="card-image">
@@ -77,40 +129,11 @@
 				</div>
 				<div class="card-header small_heading">
 					Hacktoberfest
+					<custom-date date="1571820065"></custom-date>
 				</div>
 			</div>
 		</Link>
-
-		<Link to="prasanth_chennaijs">
-			<div class="card clickable">
-				<div class="card-image">
-					<img src="https://via.placeholder.com/300x250" class="image-responsive"/>
-				</div>
-				<div class="card-header small_heading">
-					Desing Thinking <strong>@Chennai JS</strong>
-				</div>
-			</div>
-		</Link>
-
-		<Link to="chennaijs">
-			<div class="card clickable">
-				<div class="card-image">
-					<img src="./images/chennai_js.jpg" class="card-image-wrapper"/>
-				</div>
-				<div class="card-header small_heading">
-					Tech-Talks <strong>@Chennai JS</strong>
-				</div>
-			</div>
-		</Link>
-
-		<div class="card clickable">
-			<div class="card-image">
-				<img src="./images/tech_talk_salem.jpg" class="card-image-wrapper"/>
-			</div>
-			<div class="card-header small_heading">
-				Tech-Talks <strong>@Salem</strong>
-			</div>
-		</div>
+		
 	</section>
 
 	<div class="break" />
@@ -189,6 +212,7 @@
 	}
 
 	.clickable {
+		height: 355px;
 		cursor: pointer;
 	}
 
