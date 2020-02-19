@@ -30,10 +30,10 @@
 	<section class="events-section">
 		<div class="card">
 			<div class="card-header small_heading">
-				<p>Frontend as a Service (FaaS) <strong> @JSRealmChennai</strong></p>
-				<custom-date date="1580572646"></custom-date>
-				<img src="./images/js_realm_prasanth.jpeg" alt="JSRealm Chennai" class="banner_fit" />
-				<NameChip name="Prasanth Kumar" initials="PK" />
+				<p>Web Development, Past & Present<strong> @EmberJS-Chennai</strong></p>
+				<img src="./images/ember_js_chennai.jpeg" alt="EmberJS Chennai" class="banner_fit" />
+				<NameChip name="Jaya Krishna Namburu" initials="JK" />
+				<custom-date date="1582954816"></custom-date>
 			</div>
 		</div>
 
@@ -48,6 +48,18 @@
 
 	<heading class="events_heading">Past Events / Talks</heading>
 	<section class="events-section">
+	<Link to="/">
+			<div class="card clickable">
+				<div class="card-image">
+					<img src="./images/js_realm_prasanth.jpg" alt="JSRealm Chennai" class="card-image-wrapper" />
+				</div>
+				<div class="card-header small_heading">
+					Frontend as a Service (FaaS) <strong> @JSRealmChennai</strong>
+					<custom-date date="1580572646"></custom-date>
+				</div>
+			</div>
+		</Link>
+
 		<Link to="/">
 			<div class="card clickable">
 				<div class="card-image">
@@ -160,7 +172,7 @@
 	}
 	.banner_fit {
 		margin-top: 15px;
-		height: 400px;
+		height: 250px;
 		width: 100%;
 		object-fit: cover;
 	}
